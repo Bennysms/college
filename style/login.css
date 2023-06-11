@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family:'Poppins', sans-serif;;
+}
+:root{
+    --main-color:#F4A340;
+    --second-color:#175EAA;
+    --red-color:#E35145;
+    --green-color:#7EC134;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--green-color);
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+.logo a img{
+    width: 200px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 6px;
+    box-shadow: -1px 3px 7px 0px rgba(0, 0, 0, 0.7);
+}
+form h1{
+    text-align: center;
+    color: var(--green-color);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.input-text{
+    width: 100%;
+    position: relative;
+}
+.input-text input{
+    width: 100%;
+    padding:10px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #d5d5d5;
+    margin-bottom: 20px;
+    color: var(--green-color);
+}
+.input-text i{
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transform: translateY(-50%);
+    color: var(--green-color);
+}
+.input-text input:focus{
+    border: 1px solid var(--green-color);
+}
+.submit{
+    padding: 10px 30px;
+    background-color: var(--green-color);
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all .3s ease-in-out;
+    display: block;
+}
+.submit:hover{
+    background-color: #639d25;
+}
+.compte{
+    font-size: 14px;
+    color: #a2a2a2;
+}
+.compte a{
+    color: var(--green-color);
+}
+.compte a:hover{
+    text-decoration: underline;
+}
